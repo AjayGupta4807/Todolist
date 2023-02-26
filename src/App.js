@@ -18,6 +18,7 @@ function App() {
   }
   const ondelete=(todo) =>{
     console.log("i am on deleteeeeeeeeeawawawawweweeeeeeeeeeeee", todo)
+
     setTodos(todos.filter((e)=>{
       return e!==todo;
     }));
