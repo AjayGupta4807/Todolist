@@ -17,7 +17,7 @@ function App() {
     initTodo = JSON.parse(localStorage.getItem("todos"));
   }
   const ondelete=(todo) =>{
-    console.log("i am on deleteeeeeeeee", todo)
+    console.log("i am on deleteeeeeeeeeaaaaaaaa", todo)
     setTodos(todos.filter((e)=>{
       return e!==todo;
     }));
